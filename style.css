@@ -1,0 +1,155 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fffcf9;
+}
+main{
+    min-width: 350px;
+    max-width: 1280px;
+    margin: auto;
+    color: #fffcf9;
+}
+header{
+    width: 100%;
+    padding: 20px 0;
+}
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+}
+header .menu-nav nav ul{
+    list-style-type: none;
+}
+header .menu-nav nav ul li{
+    display: inline-block;
+    margin: 0 0 0 26px;
+}
+header .menu-nav nav ul li a{
+    display: inline-block;
+    font-family: "baloo bhaijaan 2", sans-serif;
+    text-decoration: none;
+    color: #3a7368;
+    font-weight: 800;
+    font-size:clamp(14px, 1vw, 30px);
+    transition: .2s;
+}
+.menu-nav nav a:hover{
+    transform: scale(1.05);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(imagens-do-site/fundo-banner-pata.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 320px;
+    border-radius: 30px;
+    position: relative;
+    
+}
+.banner .txtbanner{
+    width: 41%;
+    position: absolute;
+    top: 21%;
+    right: 8%;
+}
+.banner .txtbanner h1{
+    font-family: "allison", cursive;
+    font-weight: normal;
+    font-size: clamp(70px, 6vw, 80px);
+    color: #492b03;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.banner .txtbanner p{
+    font-family: "asul", serif;
+    font-weight: normal;
+    color: #492b03;
+    text-align: center;
+    font-size:clamp(13px, 1vw, 30px);
+    font-weight: 400; 
+}
+.banner .txtbanner p span{
+    display: block;
+}
+
+.banner .pplogo{
+    display: inline-block;
+}
+.banner .pplogo img{
+    width: 37%;
+    height: 120%;
+    min-width: 300px;
+    min-height: 10%;
+    position: absolute;
+    transform: translate(-90%, -34%);
+}
+.h1categ{
+    font-family: "baloo bhaijaan 2", sans-serif;
+    color: #3a7368;
+    padding: 20px 0 20px 50px;
+    font-size: clamp(5px,4vh,30px);
+    font-weight: bolder;
+}
+.circulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+    width: 13vw;
+    max-width: 160px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.circulo img{
+    width: 13vw;
+    height: 14vh;
+    max-width: 160px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.categ{    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+}
+.divcateg{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows:repeat(2,auto);
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+   
+    
+    
+    
+
+}
+.divcateg p{
+    font-family: "Fredoka", sans-serif;
+    font-size:clamp(5px, 2vw,20px);
+    font-weight: 500;
+    color: #fffcf9;
+    background-color: #6CB0A3;
+    border-radius: 7px;
+    text-align: center;
+}
+
