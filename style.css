@@ -108,7 +108,7 @@ header .menu-nav nav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 13vh;
+    height: 12vh;
     width: 13vw;
     max-width: 160px;
     max-height: 200px;
@@ -116,8 +116,8 @@ header .menu-nav nav ul li a{
     border: 1px solid black;
 }
 .circulo img{
-    width: 13vw;
-    height: 13vh;
+    height: 12vh;
+    width: 13px;
     max-width: 160px;
     max-height: 200px;
     border-radius: 50%;
