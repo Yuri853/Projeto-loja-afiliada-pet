@@ -101,7 +101,7 @@ header .menu-nav nav ul li a{
     font-family: "baloo bhaijaan 2", sans-serif;
     color: #3a7368;
     text-align:center;
-    padding: 20px 0 20px 15px;
+    padding: 20px 0 20px 0;
     font-size: clamp(5px,4vh,30px);
     font-weight: bolder;
 }
