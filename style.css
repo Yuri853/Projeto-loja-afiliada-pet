@@ -112,7 +112,6 @@ header .menu-nav nav ul li a{
     height:clamp(100px, 14vw, 160px);
     width:clamp(100px, 14vw, 160px);
     border-radius: 50%;
-    border: 1px solid black;
 }
 .circulo img{
     height:clamp(100px, 14vw, 160px);
